@@ -1,0 +1,19 @@
+[21-Jan-2009 09:26:38] PHP Fatal error:  Using $this when not in object context in /home/barranco/recipes/www/add.php on line 86
+[22-Jan-2009 08:15:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/barranco/recipes/www/test.php on line 3
+[22-Jan-2009 08:15:19] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/barranco/recipes/www/test.php on line 33
+[22-Jan-2009 08:15:28] PHP Warning:  require_once(Zip.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/barranco/recipes/www/test.php on line 22
+[22-Jan-2009 08:15:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zip.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barranco/recipes/www/test.php on line 22
+[22-Jan-2009 08:18:57] PHP Warning:  require_once(Mail.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/barranco/recipes/www/test.php on line 22
+[22-Jan-2009 08:18:57] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barranco/recipes/www/test.php on line 22
+[22-Jan-2009 08:21:09] PHP Warning:  require_once(Mail/mimePart.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/barranco/php/Mail/mime.php on line 74
+[22-Jan-2009 08:21:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Mail/mimePart.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barranco/php/Mail/mime.php on line 74
+[22-Jan-2009 08:22:30] PHP Warning:  unlink(/home/barranco/recipes/dbBackupKiwxBy) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/barranco/recipes/www/test.php on line 44
+[22-Jan-2009 08:23:17] PHP Warning:  unlink(/home/barranco/recipes/dbBackupqmsP8b) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/barranco/recipes/www/test.php on line 44
+[23-Jan-2009 08:26:14] PHP Warning:  require_once(RecipeDB.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/barranco/recipes/www/config.inc.php on line 11
+[23-Jan-2009 08:26:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'RecipeDB.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/barranco/php:/home/barranco/recipes/include/:/home/barranco/recipes/www/') in /home/barranco/recipes/www/config.inc.php on line 11
+[09-Apr-2009 17:33:12] PHP Fatal error:  Call to private Database::__construct() from context 'RecipeDB' in /home/barranco/recipes/include/RecipeDB.inc.php on line 6
+[09-Apr-2009 17:33:46] PHP Fatal error:  Call to private Database::__construct() from context 'RecipeDB' in /home/barranco/recipes/include/RecipeDB.inc.php on line 6
+[09-Apr-2009 17:33:49] PHP Fatal error:  Call to private Database::__construct() from context 'RecipeDB' in /home/barranco/recipes/include/RecipeDB.inc.php on line 6
+[10-Apr-2009 08:31:25] PHP Fatal error:  Call to private Database::__construct() from context 'RecipeDB' in /home/barranco/recipes/include/RecipeDB.inc.php on line 6
+[10-Aug-2009 09:06:50] PHP Fatal error:  Prepared statment execution error MDB2 Error: not found [Error message: Unable to bind to missing placeholder: 0]
+ in /home/barranco/recipes/include/Database.inc.php on line 70

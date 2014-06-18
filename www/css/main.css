@@ -1,0 +1,192 @@
+body {
+	color: #000000;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+hr {
+	border: 1px solid #d1d1d1;
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+
+img {
+	border: 0;
+}
+
+h1 {
+	font-size: 16pt;
+	font-weight: normal;
+	text-align: left;
+}
+
+h2 {
+	font-size: 11pt;
+	font-weight: strong;
+}
+
+h3 {
+	font-size: 11pt;
+	font-weight: strong;
+	font-style: italic;
+}
+
+select {
+	font-family: Arial Narrow;
+	font-size: 10pt;
+}
+
+ul {
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+	padding-left: 1.2em;
+
+}
+
+
+/*Generic Styles Begin*/
+.indent { padding-left: 20px !important; }
+.hidden { display: none !important; }
+.whiteBG { background-color: white; }
+.textLeft { text-align: left; }
+.textRight { text-align: right; }
+.textCenter { text-align: center; }
+.textTop { vertical-align: top; }
+.textMiddle { vertical-align: middle; }
+.textBottom { vertical-align: bottom; }
+.noBorder { border: 0 !important; }
+.noBorder td { border: 0 !important; }
+.fullWidth { width: 100%; }
+.almostFullWidth { width: 99%; }
+.halfWidth { width: 50%; }
+.halfHeight { height: 50%; }
+.bold { font-weight: bold; }
+.nobold { font-weight: normal !important; }
+.italic { font-style: italic; }
+.red { color: red; }
+.green { color: #007700; }
+.underline { text-decoration: underline !important; }
+.fakeLink { color: #0088ff; text-decoration: underline; }
+.link { color: #0088ff; text-decoration: underline; }
+.noMargin { margin: 0; }
+.margin2 { margin: 2px; }
+.noPadding { padding: 0; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.successMessage { font-weight: bold; font-size: 10pt; color: #080; }
+.errorMessage { font-weight: bold; font-size: 10pt; color: #f00; }
+.preOrder { color: red !important; font-family: Arial Narrow !important; }
+.available { color: #338833; }
+.backOrder { color: #883333; } /*font-weight: bold; font-family: Arial Narrow; }*/
+.block { display: block !important; }
+.inline { display: inline !important; }
+.pointer { cursor: pointer; }
+.thinBorder { border: 1px solid #888; }
+.thickBorder { border: 2px solid black; }
+.transparent { background-color: transparent; }
+.narrowFont { font-family: Arial Narrow !important; }
+.smallFont { font-size: 8pt; }
+.verySmallFont { font-size: 7pt; }
+.largeFont { font-size: 12pt; }
+.veryLargeFont { font-size: 14pt; }
+.line-through { text-decoration: line-through; }
+.shortLines { width: 550px; }
+/*Generic Styles End*/
+
+.commentTable {
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#recipeTable {
+	width: 440px;
+	margin-right: 5px;
+	border: 1px dashed black;
+	float: left;
+}
+
+#addRecipeTable {
+	width: 740px;
+	border: 1px solid black;
+}
+
+#recipeTable td, #addRecipeTable td {
+	border: 1px solid black;
+	padding: 5px; 
+}
+
+#recipeImage {
+	float: left;
+}
+
+#comment {
+	margin: 5px;
+	border: 1px solid black;
+	padding: 3px;
+	background-color: #dddddd;
+}
+
+#commentBy {
+	font-size: 8pt;
+}
+
+#headerMenu td {
+	padding: 1px;
+}
+
+.padLeft {
+	padding-left: 5px !important;
+}
+
+a.menuItem, div.menuItem {
+	background-color: #000000;
+	color: white;
+	float: left;
+	padding: 4px;
+	margin: 2px;
+}
+
+div.menuItem {
+	padding: 3px;
+	padding-top: 4px;
+}
+
+.menuItem input {
+	border: 1px solid black;
+	font-size: 8pt;
+}
+
+#recipeList {
+	border-collapse: collapse;
+}
+
+#recipeList .sectionHeader td {
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 5px;
+	padding-left: 10px;
+	border: 1px solid black;
+}
+
+#recipeList .recipe td {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#recipeList .quickJump td {
+	padding: 5px;
+}
+#recipeList .headerRow td {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid black;
+	background-color: #dddddd;
+}
